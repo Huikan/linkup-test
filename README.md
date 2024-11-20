@@ -3,11 +3,11 @@
 This is for linkup exercise.
 
 ### System design 
-1. Frontend: A web client interacts with a Flask REST API.
-2. Backend: 
-2.a. Flask communicates with Qdrant for vector search.
-2.b. A background job fetches and processes RSS feeds. I used RSS feed source that allows incrementally sniffer the latest news. The only drawback is no rss for full archive available for both sites. 
-3 Storage: Qdrant stores vector embeddings and metadata.
+- Frontend: A web client interacts with a Flask REST API.
+- Backend: 
+    - Flask communicates with Qdrant for vector search.
+    - A background job fetches and processes RSS feeds. I used RSS feed source that allows incrementally sniffer the latest news. The only drawback is no rss for full archive available for both sites. 
+- Storage: Qdrant stores vector embeddings and metadata.
 
 ### To run the project 
 1. build the docker image
